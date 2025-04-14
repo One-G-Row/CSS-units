@@ -1,0 +1,73 @@
+/* root element */
+html{
+font-size: 32px;
+/* background: linear-gradient(to bottom right, rgb(85, 201, 85) 20%,pink 40%, rgb(238, 85, 238), rgb(91, 236, 236) 60%, rgb(250, 187, 71) 80% ); */
+/* background: url("images/GTECH.png"); */
+height: 100vh;
+}
+
+.container-one, .container-two{
+padding-left: 10px;
+margin: 40px;
+width: 200px;
+height: 100px;
+}
+
+/* css units */
+/* parent element */
+.divs{
+    /* border: 1px solid black; */
+    font-size: 16px;
+    width: 400px;
+}
+
+/* border: top right bottom left */
+.container-one{
+    padding: 1px;
+    
+    border-color: black;
+    border: 1px solid black; 
+    font-size: 2em;/* 2em = 32px */
+    width: 50vw;
+    /* height: 100vh; */
+    }
+    
+.container-two{
+    border: 1px solid red;
+    font-size: 2rem;/* 2rem = 12 * 2 */
+    }
+    
+/* lists */
+ol{
+    list-style-type: lower-alpha;
+}
+
+ul{
+    list-style: none;
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table{
+margin:40px auto;
+width: 400px;
+height: 200px;
+text-align: center;
+}
+
+tr:hover{
+    background: #f2f2f2;
+}
+
+tr:nth-child(odd){
+background: #f2f2f2;
+}
+
+
+/* tables */
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
